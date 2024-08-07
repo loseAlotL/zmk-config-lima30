@@ -1,0 +1,5 @@
+config SHIELD_LIMA30_LEFT
+    def_bool $(shields_list_contains,lima30_left)
+
+config SHIELD_LIMA30_RIGHT
+    def_bool $(shields_list_contains,lima30_right)
